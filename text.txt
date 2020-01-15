@@ -1,0 +1,24 @@
+I am launching from inside the firewall, with a comuter science degree and experience with a proprietary system
+(IBM AS/400) [Object oriented, db2 relational database, security, disaster recovery,
+communications, RPG programmin, Control Language, application development, data warehousing].
+
+
+The trilogy-UT bootcamp gave me insight into the otherside of the firewall. Today's implementation of
+that necessary cooperation between two systems is called client/server. The fundamentals of
+logic, function and user interfaces I've learned to coded with javascript and HTML. The world of open-source has 
+expanded my resources for both learning and creating - pulling and pushing code from github enables mass 
+sharing of ideas and code from around the world.
+
+Security? On the proprieatray system I could ensure integrity and protected environments. Today, the focus on 
+openess has presented a world where it's difficult and often impossible to make finite statements about security and 
+unprecedented effort and cost goes into attempting to create secure applications and environments. The dollars
+and man hours associated with this has impacted our resources for pushing into new ideas and capital investments.
+
+
+https://www.srijan.net/blog/open-source-vs-proprietary-software-which-one-is-more-secure
+security is one of the driving forces for digital transformation are boosting enterprise security globally. 
+
+
+
+
+
