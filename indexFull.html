@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <!-- reset the css styling for cross browser support -->
+  <link rel="stylesheet" href="./css/reset.css"> 
+  <link rel="stylesheet" href="./css/style.css">
+ 
+  <!-- don't use bootstrap -->
+ 
+<!-- Resize the browser window to observe grid will respond to the resizing, 
+    and always use 100% of the available space. Some elements' heights are unchanging -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <!-- do I have the right extensions for chrome?-->
+
+  <style>
+    /* responsive screen sizes */ 
+        /* This is for targetting tablets */
+        /* @media only screen 
+            and (min-device-width: 768px) 
+            and (max-device-width: 1024px) 
+            and (-webkit-min-device-pixel-ratio: 1)  */
+            
+
+            /* This is for targeting cellphones */
+            /* @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 568px) 
+            and (-webkit-min-device-pixel-ratio: 2)  */
+                
+            
+      /* important for responsivness
+      The CSS box-sizing property allows us to include the padding and border
+      in an element's total width and height. */
+        
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .gridwrapper {
+    overflow: auto;
+    position: relative;
+    height: 250px;
+  }
+  
+  .gridcontent {
+    width: 8.33%;
+    margin: 0;
+    border-right: 1px solid grey;
+    height: 100%;
+    float: left;
+    background-color: #84c754;
+    background-color: #f1f1f1;
+  }
+  </style>
+  <!-- ssssssssssssssssssssssssssssssssssssssss -->
+
+
+ <!-- hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh --> 
+<head>
+    <title>Portfolio - UT Bootcamp - Sharon Story Smith</title> 
+    <!-- The width=device-width part sets the width of the page to follow the screen-width of
+         the device (which will vary depending on the device). The initial-scale=1.0 
+         sets the initial zoom level when the page is first loaded by the browser.
+ -->
+   
+</head>
+
+
+
+
+
+<!-- bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb --> 
+
+<body>
+  
+<!-- entire container in which all others fit -->
+<div style="position:absolute;opacity:0.9;width:auto;left:8px;right:10px;">
+    <div>
+   
+      <div class="gridwrapper" style="height:45px;">
+          <!-- light green bar at top of the viewport (floated left, 100% width), 45px in height, 
+              100% of the viewport's width, no visible right border-->
+        <div class="gridcontent" style="width:100%;background:#90ee90;border-right-color:transparent;">
+          <!-- Insert a navigation bar  -->
+<nav>
+    <a href="https://www.linkedin.com/in/sharon-story-smith-100a3637?trk=people-guest_profile-result-card_result-card_full-click">Linkedin</a> |
+
+    <a href=https://github.com/sstorysmith> GitHub</a> |
+
+    <a href=mailto:storysmithsharon@gmail.com?subject="HTML link"> Email</a> |
+    
+    <a href="https://sstorysmith.github.io/GiphySearchandDisplay"> Giff Images</a> |
+
+    <a href="https://erwinangeles.github.io/LetsGoOut//">Group Project 1</a> |    
+
+    <a href="https://sstorysmith.github.io/Train-Scheduler/"> Train </a> |
+
+    <a href="C:/utbootcamp/Homework/HW9bamazon/readme.md"> Bamazon SQL </a> | 
+    
+    <a href="https://mighty-castle-12131.herokuapp.com/">Burger</a> |   
+    
+    <a href="https://blooming-dawn-72157.herokuapp.com">Friend Finder</a> |  
+
+    <a href="http://still-peak-75374.herokuapp.com">Clicky Game </a>
+
+    
+</nav>
+    
+        </div>
+      </div>
+
+  
+
+
+ <!-- <h1 class="intro">Header 1</h1>  -->
+      <header class="masthead">
+        <p class="masthead-intro"></p>
+        <h1 class="masthead-heading"> Sharon Story Smith</h1>
+    </header> 
+
+    
+     
+      <!-- display headshot -->
+        <!-- Responsive: change width to auto -->
+      <img
+      src="./img/linkedinheadshot.jpg" alt="Sharon Story Smith Headshot" height="100%" width="auto"
+      />
+     
+    <br />
+
+    <a href="https://www.linkedin.com/in/sharon-story-smith-100a3637?trk=people-guest_profile-result-card_result-card_full-click">Linkedin.com </a>
+
+    
+
+        
+
+
+        <div>
+         <p>
+          <h1>Introduction</h1>
+          <p><strong>I live in a great community</strong> I live in a great communitynorth of Austin, Texas. 
+              My experience is in application development, relational
+              database and fullstack web development.</p>
+        </p>
+        </div>
+        
+      <h1>Where I'm From</h1>
+      <p>I was raised in small towns in East Texas (Nacogdoches and Lufkin).
+        I came to the Austin metroplex with my family to The University of Texas and have been
+        in and out of Austin frequently enought to keep up with the changes. I lived and worked 7 years in
+        Rochester, Minnesota. I lived in North Ft. Worth for 18 years and was a homemaker, mom and community volunteer.
+      </p>
+
+      <h1>What are my favorite hobbies?</h1>
+      <p>I enjoy watching a sunrise and a sunset - preferaably over a lake
+        or over the ocean. I love to garden and landscape. I enjoy bicycle riding.
+        Most of all, I love being with my family and friends.</p>
+
+      <h1>What's my dream job?</h1>
+      <p>My dream job is backend web development.  I think developing apps is a wonderful blend 
+      of creativity and technical skillsets. I'm also looking forward to the social interraction I'll find in a
+       workplace setting.</p>
+
+      <h1>Where do I live?</h1>
+      <p>I currently live in a great community North of Austin named Pflugerville. It's
+        between a rock (Round Rock) and a weird place (Austin). Anything with the
+        phonetic sound of "f" or "ph" will have a local spelling of "pf" - i.e., the
+        high schools' statdium is the "Pfield"; farmer is spelled pfarmer. </p>
+
+      <h1>Why do I want to be a web developer?</h1>
+      <p>I want to develope as a web developer so I can pivot my previous experience with 
+        app development into this current technical world of "everything is about the web".
+       
+      </p>
+ 
+ 
+
+    <footer id="footer">
+        <ul class="social">
+          <li><a href="https://github.com/sstorysmith?tab=repositories">Github</a></li>
+        </ul>
+    </footer>
+ 
+    </div>   <!-- from purple wrapper -->
+</div>   <!-- from large container-->
+</body>
+
+
+</html>
