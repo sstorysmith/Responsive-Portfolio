@@ -10,24 +10,42 @@ body {
 sans-serif;
 }
 
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+padding: 0 0 22em 0;;
+background-image: url("../img/sharonWorking.jpg"); 
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* .masthead-intro {
+  margin-bottom: 0.1em;
+  font-size: 2em;
+  color: #ffffff;
+} */
+
+
 nav{
 background: '#ebebeb';
 }
-
+section{
+background: '#ebebeb';
+width:495px;
+}
 
 header{
 background: '#ebebeb'
 }
-
-.mastImage {
-
-  background-image: url("../img/sharonWorking.jpg"); 
-  background-size: cover;
-  background-repeat: no-repeat;
-  }
+/* aside{
+background: '#ebebeb'
+} */
 
 .masthead-heading {
-  padding: 0 0 22em 0;;
   margin-top: -0.2em;
   font-weight: bold;
   font-size: 6em;
@@ -37,16 +55,70 @@ background: '#ebebeb'
   color: black;
 }
 
+.details {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  }
+
+
+
+.details > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: '#777';
+  background: '#ebebeb';
+  }
+
+.details > h2 {
+  font-size: 1.2em;
+  color: "red";
+  font-weight: bold;
+  margin: 2em 0 1em 0;
+}
+
+
+section > h1 {
+  margin-top: 2em;
+  color: '#777';
+  background: '#ebebeb';
+}
+
+/* aside > h1 {
+font-size: 1.5em;
+} */
+
+
+article {
+color: '#ebebeb';
+background: '#777';
+
+}
+
+
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
+
+
+
+.gridwrapper {
+overflow: auto;
+position: relative;
+height: 250;
+} 
 
 .gridcontent {
 width: 8.33%;
 margin: 0;
 border-right: 1px solid grey;
-height: 45px; 
+height: 100%; 
 float: left;
 background-color: #84c754;
 background-color: #f1f1f1;
-}  
+} 
 
   /* responsive screen sizes */
       /* This is for targetting tablets */
