@@ -2,12 +2,9 @@ body {
   color: #222222;
   font-size: 1em;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
-   color: '#777';
-  
-   width: '960px';
-   font-size: '18px'
-
-sans-serif;
+  color: '#777';
+  width: '960px';
+  font-size: '18px' sans-serif;
 }
 
 nav{
@@ -16,8 +13,8 @@ background: '#ebebeb';
 
 
 header{
-background: '#ebebeb'
-}
+  background: '#ebebeb'
+  }
 
 .mastImage {
 
